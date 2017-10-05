@@ -1,7 +1,6 @@
 # Cheat Sheets
 *Cheat sheets with no useless shit* 
 
----
 
 ## Rails
 - [Action Cable](https://github.com/Durev/Cheat_Sheets/tree/master/Rails/Action_Cable)
