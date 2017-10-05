@@ -9,8 +9,11 @@ Implement Action Cable in a simple working Rails app
 > 3 - Make a JS program to interact with the page on the client side (using data sent on the channel)
 
 <br>
+
 ## Channel
+
 Generate a new channel 
+
 ```shell
 $ rails generate channel Foobar
 ```
@@ -27,8 +30,11 @@ Link the main server of the app with the Action Cable server. In the *config/rou
 mount ActionCable.server, at: '/cable'
 ```
 <br>
+
 ## Controller
+
 Add the server method .broadcast to the controller to set the data **hash** that will be streamed
+
 ```ruby
 ActionCable.server.broadcast 'streamname',
                                 data_key1: info1,
