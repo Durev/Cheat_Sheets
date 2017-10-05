@@ -25,6 +25,8 @@ end
 ```
 *(As many streams as needed can be added, each one being streamed to all or just a group of users).*
 
+<br>
+
 Link the main server of the app with the Action Cable server. In the *config/routes.rb* file, add :
 ```ruby
 mount ActionCable.server, at: '/cable'
