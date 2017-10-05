@@ -1,0 +1,19 @@
+# Cheat Sheets
+*Cheat sheets with no useless shit* 
+
+---
+
+## Rails
+- [Action Cable](https://github.com/Durev/Cheat_Sheets/......etc.md)
+- Gemfile
+
+## Scrapping
+- Nokogiri
+- Watir
+
+## Chrome extensions
+- Manifest files
+- ...
+
+
+> Disclaimer : [Here is the truth](http://s2.quickmeme.com/img/73/7368bba925cab9dd176e32f7ce8c4d1fbf9917c0870d39ecfe8254874e42b907.jpg)
