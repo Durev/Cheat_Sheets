@@ -11,7 +11,7 @@ Implement Action Cable in a simple working Rails app
 <br>
 #### Channel
 Generate a new channel
-```sh
+```shell
 $ rails generate channel Foobar
 ```
 This generate (among others) : *app/channels/foobar_channel.rb*. Set the stream(s) here :

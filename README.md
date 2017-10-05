@@ -4,7 +4,7 @@
 ---
 
 ## Rails
-- [Action Cable](https://github.com/Durev/Cheat_Sheets/......etc.md)
+- [Action Cable](https://github.com/Durev/Cheat_Sheets/tree/master/Rails/Action_Cable)
 - Gemfile
 
 ## Scrapping
