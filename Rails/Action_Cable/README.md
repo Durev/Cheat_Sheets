@@ -1,16 +1,16 @@
 # Action Cable
 Implement Action Cable in a simple working Rails app
 
----
 
-> **3 steps :**
-> 1 - Create a channel to handle Websockets connections on the server side
-> 2 - Update the controller action(s) to broadcast changes to the channel (instead of redirecting or rendering)
+
+> **3 steps :** <br>
+> 1 - Create a channel to handle Websockets connections on the server side<br>
+> 2 - Update the controller action(s) to broadcast changes to the channel (instead of redirecting or rendering)<br>
 > 3 - Make a JS program to interact with the page on the client side (using data sent on the channel)
 
 <br>
-#### Channel
-Generate a new channel
+## Channel
+Generate a new channel 
 ```shell
 $ rails generate channel Foobar
 ```
@@ -26,8 +26,8 @@ Link the main server of the app with the Action Cable server. In the *config/rou
 ```ruby
 mount ActionCable.server, at: '/cable'
 ```
-
-#### Controller
+<br>
+## Controller
 Add the server method .broadcast to the controller to set the data **hash** that will be streamed
 ```ruby
 ActionCable.server.broadcast 'streamname',
@@ -35,7 +35,7 @@ ActionCable.server.broadcast 'streamname',
                                 data_key2: info2,
                                 ...
 ```
-***- DRY -***
+***- DRY -*** <br>
 If the content added with Action Cable is identical to existing views/partials, it's better to directly stream a partial :
 ```ruby
 ActionCable.server.broadcast 'streamname',
@@ -47,7 +47,7 @@ ActionCable.server.broadcast 'streamname',
 - Update *app/channels/application_cable/connection.rb* if a [login protection is needed at Action Cable level](https://www.learnenough.com/action-cable-tutorial#sec-login_protection)
 <br>
 
-#### Client side JavaScript - Channel subscription
+## Client side JavaScript - Channel subscription
 The file *app/assets/javascripts/channel/foobar.coffee* receives the data broadcasted on the Foobar channel.
 ```coffee
 received: (data) ->
@@ -62,7 +62,7 @@ received: function(data) {
 ```
 <br>
 
-#### Deploy to production (on Heroku)
+## Deploy to production (on Heroku)
 - Add Redis Gem
 - Include redistogo addon
 - Update production URL in *config/cable.yml*
