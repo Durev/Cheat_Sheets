@@ -4,7 +4,7 @@ Follow the [official tutorial](https://docs.docker.com/install/linux/docker-ce/u
 
 Though if you're using Linux Mint, you may have a little trouble with the Docker stable repository set up
 *(Install Docker CE > Install using the repository > Set up the repository > part 4)*,
-especially of you're not familiar with the parenting relations between the differents Ubuntu/Linux Mint releases. :penguin:
+especially if you're not familiar with the parenting relations between the different Ubuntu/Linux Mint releases. :penguin:
 
 As precised in the note, *"in a distribution like Linux Mint, you might need to change $(lsb_release -cs) to your parent Ubuntu distribution"*
 
