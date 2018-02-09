@@ -36,7 +36,8 @@ $ sudo add-apt-repository \
 ```
 
 In case you **already added the wrong repository** (or many wrong repositories if you tried with different version names), **delete it/them from your repositories list** in the Update Manager (as incorrect repositories names will cause the update to fail) :
-![repositories screenshot](screenshots/repositories_list.png "Delete useless repositories")
+
+<img src="screenshots/repositories_list.png" width="500">
 
 Once you only have the correct Docker repository in your list, you can now smoothly run the update :
 ```bash
