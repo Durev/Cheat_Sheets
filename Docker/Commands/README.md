@@ -77,7 +77,7 @@ In order to set the environment for a multi-container application, we need a *do
  - the image to use for the container
  - the ports to connect with others containers
  - the volumes to use
- - the name of the containers it depends on, and that need to be started first
+ - the name of the containers it depends on, which need to be started first
  - the commands to run
  - the environment variables ...
 
